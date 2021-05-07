@@ -1,4 +1,5 @@
 import Nullstack from 'nullstack';
+import './Google.scss';
 import './Application.scss';
 import Main from './en-us/Main';
 //import mainEN from './en-us/Main';
@@ -7,8 +8,7 @@ class Application extends Nullstack {
   renderHead(){
     return(
       <head>
-          <link rel="preconnect" href="https://fonts.gstatic.com"/>
-          <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
+          <link rel="preconnect" href="https://fonts.gstatic.com"/>          
       </head>
     )
   }

@@ -11,10 +11,10 @@ class Portfolio extends Nullstack {
           <h1 class="tx-1">I'm a <strong>Web Designer</strong> and <strong>Front End Developer</strong></h1>
           <h2 class="tx-2">In a career transition to <strong>UX Design</strong></h2>
           <br/>
-          <h5 class="tx-3">* I sing, draw and play tabletop RPG on free time</h5>
+          <h3 class="tx-3">* I sing, draw and play tabletop RPG on free time</h3>
           </div>
         <div>
-          <img src="eu.png"/>
+          <img src="eu.png" alt="That's me drawed in Figma"  width="408px" height="370px" />
         </div>
       </section>
     )
@@ -24,7 +24,7 @@ class Portfolio extends Nullstack {
     return(
       <div class="case">
         <div class="img">
-          <img src={"cases/"+img}/>   
+          <img src={"cases/"+img} alt={title+"'s screenshot"}  width="320px" height="200px"/>   
         </div>   
         <ul class="tags">
           {tags.map(tag => <li>{tag}</li>)}
@@ -66,13 +66,17 @@ class Portfolio extends Nullstack {
           client="Gisele"
         />
         <div class="case">
-          <img src="wireframe.jpg"/>      
+          <img src="wireframe.jpg" alt="image of some sketches" width="320px" height="200px"/>      
           <h3 class="title">Your Bussiness</h3>
           <p class="description">Call me, and let's make a solution for your bussiness together? :)</p>
           <a class="cta">Let's talk?</a>
         </div>
       </section>
     )
+  }
+
+  prepare({page}){
+    page.locale = 'en-US';
   }
 
   render() {

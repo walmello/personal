@@ -97,6 +97,7 @@ section {
 
     img{
       width: 80%;
+      height: 100%;
       margin: auto;
     }
 
@@ -116,7 +117,7 @@ section {
 #portfolio{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
+  gap: 10px;
   @media (max-width: $mobile) {
     display: block;
   }
@@ -127,12 +128,14 @@ section {
       border-radius: 8px;
       background-size: 150%;
       background-position: center;
+      height: auto;
     }
 
     .tags {
       margin: 20px 0px;
       display: flex;
       flex-wrap: wrap;
+      height: 80px;
     }
 
     a {

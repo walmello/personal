@@ -13,8 +13,8 @@ class Portfolio extends Nullstack {
           <br/>
           <h5 class="tx-3">* Eu Canto, desenho e jogo RPG nas horas vagas</h5>
           </div>
-        <div>
-          <img src="eu.png"/>
+        <div>        
+          <img src="eu.png" alt="That's me drawed in Figma"/>
         </div>
       </section>
     )

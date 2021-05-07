@@ -57,6 +57,16 @@ class Main extends Nullstack {
     render() {
         return (
         <>
+        <head>
+          <title>Walter Melo - Web Designer | Developer </title>
+          <meta name="description" content="
+            Hello, my name is
+            Walter Melo
+            
+            I'm a Web Designer and Front End Developer
+            In a career transition to UX Design            
+          "></meta>
+        </head>
         <Header/>
         <About route="/about"/>
         <Portfolio route="/" />
