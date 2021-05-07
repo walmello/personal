@@ -77,6 +77,7 @@ class Portfolio extends Nullstack {
 
   prepare({page}){
     page.locale = 'en-US';
+    page.canonical = 'https://waltermelo-ux-dev.netlify.app/';
   }
 
   render() {
