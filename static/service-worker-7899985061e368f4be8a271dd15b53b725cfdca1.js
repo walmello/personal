@@ -5,7 +5,7 @@ self.context = {
     "development": false,
     "production": true,
     "static": true,
-    "key": "343846e040170ccd844b81ff5f6fdf89d3971ef8"
+    "key": "7899985061e368f4be8a271dd15b53b725cfdca1"
   },
   "project": {
     "cdn": "",
