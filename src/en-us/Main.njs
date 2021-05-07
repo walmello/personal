@@ -14,7 +14,7 @@ class Main extends Nullstack {
           </nav>
           <ul class="language">
               <li>
-                  <a class="active" href="#">US-EN</a>
+                  {/*<a class="active" href="#">US-EN</a>*/}
               </li>
               <li>
                   {/*<a href="#">PT-BR</a>*/}
