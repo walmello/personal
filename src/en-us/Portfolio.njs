@@ -5,13 +5,13 @@ class Portfolio extends Nullstack {
     return (
       <section id="hero">
         <div>
-          <p class="tx-2">👋 Hello, my name is</p>
+          <h4 class="tx-2">👋 Hello, my name is</h4>
           <h3 class="tx-1">Walter Melo</h3>
           <br/>
-          <h1 class="tx-1">I'm a <strong>Web Designer</strong> and <strong>Front End Developer</strong><br/>
-          <span class="tx-2">In a career transition to <strong>UX Design</strong></span></h1>
+          <h1 class="tx-1">I'm a <strong>Web Designer</strong> and <strong>Front End Developer</strong></h1>
+          <h2 class="tx-2">In a career transition to <strong>UX Design</strong></h2>
           <br/>
-          <h2 class="tx-3">* I sing, draw and play tabletop RPG on free time</h2>
+          <h3 class="tx-3">* I sing, draw and play tabletop RPG on free time</h3>
           </div>
         <div>
           <img src="eu.png" alt="That's me drawed in Figma"  width="408px" height="370px" />
