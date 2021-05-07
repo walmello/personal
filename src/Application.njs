@@ -8,6 +8,7 @@ class Application extends Nullstack {
   renderHead(){
     return(
       <head>
+          <link rel="canonical" href="https://waltermelo-ux-dev.netlify.app/"/>
           <link rel="preconnect" href="https://fonts.gstatic.com"/>          
       </head>
     )
