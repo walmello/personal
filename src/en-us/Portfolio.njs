@@ -20,7 +20,7 @@ class Portfolio extends Nullstack {
     )
   }
 
-  renderCase({img, tags, title, description, testimonial, client}){
+  renderCase({slug, img, tags, title, description, testimonial, client}){
     return(
       <div class="case">
         <div class="img">
@@ -31,7 +31,7 @@ class Portfolio extends Nullstack {
         </ul>
         <h3 class="title">{title}</h3>
         <p class="description">{description}</p>
-        <a>Read Case</a>
+        <a href={"case/"+slug}>Read Case</a>
         
         <p class="testimonial">"{testimonial}."</p>
         <p class="client">{client}</p>
@@ -43,6 +43,7 @@ class Portfolio extends Nullstack {
     return(
       <section id="portfolio">
         <Case 
+          slug="b3-consultoria"
           img="b3.png"
           title="b3 consultoria"
           tags={['wordpress', 'Graphic Design', 'Javascript', 'Figma', 'other']}
