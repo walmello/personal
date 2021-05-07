@@ -11,7 +11,6 @@ class Portfolio extends Nullstack {
           <h1 class="tx-1">Sou <strong>Web Designer</strong> e <strong>Desenvolvedor Front End</strong></h1>
           <h2 class="tx-2">Em transição de carreira para o <strong>UX Design</strong></h2>
           <br/>
-          <h5 class="tx-3">* Eu Canto, desenho e jogo RPG nas horas vagas</h5>
           </div>
         <div>        
           <img src="eu.png" alt="este sou eu desenhado no Figma"/>
