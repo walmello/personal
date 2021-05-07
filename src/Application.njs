@@ -1,7 +1,8 @@
 import Nullstack from 'nullstack';
 import './Google.scss';
 import './Application.scss';
-import Main from './en-us/Main';
+import English from './en-us/Main';
+import Portuguese from './pt-br/Main';
 //import mainEN from './en-us/Main';
 
 class Application extends Nullstack {
@@ -91,7 +92,8 @@ class Application extends Nullstack {
     return (
       <>
         <Head/>
-        <Main/>
+        <Portuguese route="/pt/*"/>
+        <English route="*"/>
       </>
     )
   }

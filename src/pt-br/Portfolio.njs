@@ -14,7 +14,7 @@ class Portfolio extends Nullstack {
           <h5 class="tx-3">* Eu Canto, desenho e jogo RPG nas horas vagas</h5>
           </div>
         <div>        
-          <img src="eu.png" alt="That's me drawed in Figma"/>
+          <img src="eu.png" alt="este sou eu desenhado no Figma"/>
         </div>
       </section>
     )
@@ -29,12 +29,14 @@ class Portfolio extends Nullstack {
         <ul class="tags">
           {tags.map(tag => <li>{tag}</li>)}
         </ul>
-        <h3 class="title">{title}</h3>
-        <p class="description">{description}</p>
-        <a>Ver Case</a>
-        
-        <p class="testimonial">"{testimonial}."</p>
-        <p class="client">{client}</p>
+        <div>
+          <h3 class="title">{title}</h3>
+          <p class="description">{description}</p>
+          <a>Ver Case</a>
+          
+          <p class="testimonial">"{testimonial}."</p>
+          <p class="client">{client}</p>
+        </div>
       </div>
     )
   }
@@ -45,7 +47,7 @@ class Portfolio extends Nullstack {
         <Case 
           img="b3.png"
           title="b3 consultoria"
-          tags={['wordpress', 'design gráfico']}
+          tags={['Wordpress', 'Javascript', 'Otimização de performance', 'Atualização de PHP']}
           description="Redesign do antigo site focado em um visual mais limpo"
           testimonial="
             Profissional dedicado e comprometido. 
@@ -55,15 +57,6 @@ class Portfolio extends Nullstack {
             e ele não mediu esforços para atingirmos o resultado final
             de forma satisfatória"
           client="Anderson Simon"
-        />
-        <Case 
-          img="cibercafe.png"
-          title="Cibercafé"
-          tags={['wordpress', 'design gráfico']}
-          description="Criação do site da Cibercafé, com estilo de tecnologia, jogos dos anos 80/90"
-          testimonial="
-            ... tem que escrever "
-          client="Gisele"
         />
         <div class="case">
           <img src="wireframe.jpg"/>      

@@ -29,12 +29,14 @@ class Portfolio extends Nullstack {
         <ul class="tags">
           {tags.map(tag => <li>{tag}</li>)}
         </ul>
-        <h3 class="title">{title}</h3>
-        <p class="description">{description}</p>
-        <a href={"case/"+slug}>Read Case</a>
-        
-        <p class="testimonial">"{testimonial}."</p>
-        <p class="client">{client}</p>
+        <div>
+          <h3 class="title">{title}</h3>
+          <p class="description">{description}</p>
+          <a href={"case/"+slug}>Read Case</a>
+          
+          <p class="testimonial">"{testimonial}."</p>
+          <p class="client">{client}</p>
+        </div>
       </div>
     )
   }
@@ -57,20 +59,14 @@ class Portfolio extends Nullstack {
             satisfactorily"
           client="Anderson Simon"
         />
-        <Case 
-          img="cibercafe.png"
-          title="Cibercafé"
-          tags={['wordpress', 'graphic design']}
-          description="Creation of website inspired on 80/90's games"
-          testimonial="
-            ... tem que escrever "
-          client="Gisele"
-        />
         <div class="case">
           <img src="wireframe.jpg" alt="image of some sketches" width="320px" height="200px"/>      
-          <h3 class="title">Your Bussiness</h3>
-          <p class="description">Call me, and let's make a solution for your bussiness together? :)</p>
-          <a href="#" class="cta">Let's talk?</a>
+          <ul class="tags"></ul>
+          <div>
+            <h3 class="title">Your Bussiness</h3>
+            <p class="description">Call me, and let's make a solution for your bussiness together? :)</p>
+            <a href="#" class="cta">Let's talk?</a>
+          </div>
         </div>
       </section>
     )

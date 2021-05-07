@@ -1,26 +1,12 @@
 import Nullstack from 'nullstack';
+import Navbar from '../components/Navbar-br.njs';
 import Portfolio from './Portfolio';
 
 class Main extends Nullstack {
 
     renderHeader(){
         return (
-          <header>
-          <nav>
-              <ul class="main">
-                  <li><a class="active" href="/">Portfolio</a></li>
-                  <li><a href="/about">Sobre</a></li>
-              </ul>
-          </nav>
-          <ul class="language">
-              <li>
-                  <a href="#">US-EN</a>
-              </li>
-              <li>
-                  <a class="active" href="#">PT-BR</a>
-              </li>
-          </ul>
-        </header>
+          <Navbar/>
         )
       }
     
@@ -28,7 +14,12 @@ class Main extends Nullstack {
         return(
           <footer>
             <div class="main">
-              <div></div>
+              <div>
+                <h4 class="title"></h4>
+                <p class="status">
+                  
+                </p>
+              </div>
               <div>
                 <h4 class="title">Redes Sociais</h4>
                 <ul>
@@ -54,7 +45,7 @@ class Main extends Nullstack {
         <>
         <Header/>
         <About route="/about"/>
-        <Portfolio route="/" />
+        <Portfolio route="/pt" />
         <Footer/>
         </>
         )
