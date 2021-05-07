@@ -70,7 +70,7 @@ class Portfolio extends Nullstack {
           <img src="wireframe.jpg" alt="image of some sketches" width="320px" height="200px"/>      
           <h3 class="title">Your Bussiness</h3>
           <p class="description">Call me, and let's make a solution for your bussiness together? :)</p>
-          <a class="cta">Let's talk?</a>
+          <a href="#" class="cta">Let's talk?</a>
         </div>
       </section>
     )
