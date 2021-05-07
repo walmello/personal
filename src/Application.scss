@@ -89,7 +89,7 @@ section {
   display: flex;
   padding-top: 20px;
   padding-bottom: 40px;
-  max-width: $tablet;
+  max-width: $desktop;
   @media (max-width: $tablet) {
     padding-top: 0px;
     .tx-1 {

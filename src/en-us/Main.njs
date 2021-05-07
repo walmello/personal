@@ -1,6 +1,7 @@
 import Nullstack from 'nullstack';
 import Navbar from '../components/Navbar.njs';
 import Portfolio from './Portfolio';
+import About from './About';
 
 class Main extends Nullstack {
 

@@ -48,7 +48,7 @@ class Portfolio extends Nullstack {
           slug="b3-consultoria"
           img="b3.png"
           title="b3 consultoria"
-          tags={['wordpress', 'Graphic Design', 'Javascript', 'Figma', 'other']}
+          tags={['Wordpress', 'Javascript', 'Performance Optimization', 'PHP Update']}
           description="Redesign and Development from the old site"
           testimonial="
             Dedicated and committed professional. 
@@ -65,7 +65,7 @@ class Portfolio extends Nullstack {
           <div>
             <h3 class="title">Your Bussiness</h3>
             <p class="description">Call me, and let's make a solution for your bussiness together? :)</p>
-            <a href="#" class="cta">Let's talk?</a>
+            <a href="https://www.linkedin.com/in/walter-uxdev/?locale=en_US" class="cta">Let's talk?</a>
           </div>
         </div>
       </section>

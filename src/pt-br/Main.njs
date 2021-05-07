@@ -1,6 +1,7 @@
 import Nullstack from 'nullstack';
 import Navbar from '../components/Navbar-br.njs';
 import Portfolio from './Portfolio';
+import About from './About';
 
 class Main extends Nullstack {
 
@@ -44,7 +45,7 @@ class Main extends Nullstack {
         return (
         <>
         <Header/>
-        <About route="/about"/>
+        <About route="/pt/about"/>
         <Portfolio route="/pt" />
         <Footer/>
         </>

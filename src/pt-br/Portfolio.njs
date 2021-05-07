@@ -62,7 +62,7 @@ class Portfolio extends Nullstack {
           <img src="wireframe.jpg"/>      
           <h3 class="title">Seu negócio</h3>
           <p class="description">Entre em contato comigo, e vamos desenhar uma solução para o seu negócio juntos? :)</p>
-          <a class="cta">Vamos conversar?</a>
+          <a href="https://www.linkedin.com/in/walter-uxdev/?locale=pt_BR" class="cta">Vamos conversar?</a>
         </div>
       </section>
     )
