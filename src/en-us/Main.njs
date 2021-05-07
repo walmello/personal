@@ -53,6 +53,11 @@ class Main extends Nullstack {
           </footer>
         )
     }
+
+    prepare({page}){
+      page.locale = 'en-US';
+      page.canonical = 'https://waltermelo-ux-dev.netlify.app/';
+    }
     
     render() {
         return (
